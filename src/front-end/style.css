@@ -1,4 +1,5 @@
 /* Login Page CSS */
+
 .logos {
     width: 12%;
     height: 12%;
@@ -29,13 +30,18 @@ input {
     border: none;
     border-radius: 8px;
     color: #F28D8D;
+    cursor: pointer;
+    width: 20%;
+    padding-top: 5px;
+    font-size: 15px;
 }
 
 .acc-button {
     padding: 14px 60px;
     font-family: Trebuchet MS, sans-serif;
     color: #F28D8D;
-    font-size: 15px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .picture {
@@ -56,3 +62,15 @@ label {
 }
 
 /* Registration Page CSS */
+
+.registration {
+    position: absolute;
+    color: #F2EFE4;
+    left: 15%;
+    top: 20%;
+    font-size: 30px;
+    background-color: #F28D8D;
+    border-radius: 10px;
+    padding: 50px 70px;
+    font-family: Trebuchet MS, sans-serif;
+}

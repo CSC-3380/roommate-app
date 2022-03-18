@@ -21,7 +21,7 @@ function LoginPage() {
             <br></br>
             <input className="acc-button" type="submit" id="button" value="Login" />
             </form>
-            <h4>Dont have account? <a href='RegistrationPage.js'><u>Sign Up</u></a></h4>
+            <h4>Dont have account? <u>Sign Up</u></h4>
         </div>
         <img src={pic} className='picture' alt="picture"/>
         </>
