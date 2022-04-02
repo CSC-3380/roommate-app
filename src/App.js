@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom'
 
 function App() {
     return (
+<<<<<<< HEAD
             <div className="App">
                 <Routes>
                     <Route path="/" element={<LoginPage />} />
@@ -18,6 +19,10 @@ function App() {
                 </Routes>
             </div>
     );
+=======
+     <LoginPage></LoginPage>
+    )
+>>>>>>> 53ed1d163477b2d9922cc5c931cd20f8afc07706
 }
 
 export default App;
